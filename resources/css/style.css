@@ -237,7 +237,7 @@ ul li a {
   }
 }
 
-@media only screen and (max-width: 1080px)
+@media only screen and (max-width: 470px)
 {
   #brandName {
     display: none;
