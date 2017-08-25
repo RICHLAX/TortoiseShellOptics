@@ -1,0 +1,327 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100%
+}
+
+h1 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.container {
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#jumbotron {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 30rem;
+  background-image: url(../images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.siteContainer {
+  width: 960px;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+}
+
+#jumbo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#jumbo2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#topbar {
+  width: 90%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+#brandContainer {
+  display: inline-flex;
+  align-items: center;
+}
+
+#brandName {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  margin-left: 1rem;
+}
+
+#whiteLogo {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 2rem;
+}
+
+ul li {
+  display: inline-flex;
+}
+
+ul li a {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+#menu {
+  display: none;
+}
+ #menu a {
+   font-family: Helvetica;
+   font-size: 1rem;
+   color: white;
+   text-decoration: none;
+   padding: 1rem 2rem;
+ }
+
+#headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+}
+
+.servicesContainer {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 7.2rem;
+  height: 8rem;
+  margin: 3rem 3rem;
+}
+
+#servicesSection {
+  display: inline-flex;
+}
+.servicesIcon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.servicesText {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.servicesIcon {
+  height: 5rem;
+}
+#paperIcon {
+  width: 3.5rem;
+}
+
+#rulerIcon {
+  width: 5rem;
+}
+
+#truckIcon {
+  width: 5rem;
+}
+
+.articleContainer {
+  margin-right: 5%;
+}
+#articleSection {
+  display: inline-flex;
+  flex-direction: row;
+}
+#philosophyContainer {
+  width: 35%;
+}
+
+#philosophy {
+    padding: 0.5rem 1.25rem;
+}
+
+.articleText {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.articleHeading {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+}
+
+#appointmentContainer {
+  width: 35%;
+}
+
+#appointment {
+  padding: 0.5rem 1.25rem;
+}
+
+
+#footerMain {
+  background-color: azure;
+}
+
+#footerContainer {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4rem 4rem;
+}
+
+#blackLogo {
+  height: 1.5rem;
+}
+
+#copyright {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1024px)
+{
+  .siteContainer {
+    width: 100%;
+  }
+  #topbar {
+    width: 100%;
+    margin-top: 0;
+  }
+  #headline {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  #jumbotron {
+    height: 22rem;
+  }
+  h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px)
+{
+  #brandName {
+    display: none;
+  }
+  #navigation {
+    display: none;
+  }
+  #menu {
+    display: inline-flex;
+  }
+  #jumbotron {
+    height: 17rem;
+    background-position: 20%;
+  }
+  #headline {
+    width: 100%;
+    margin-top: 9rem;
+    margin-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  #servicesSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+  }
+  .servicesContainer {
+    margin: 0;
+    height: auto;
+  }
+
+  #exams {
+    margin-top: 3.77rem;
+  }
+  #fittings {
+    margin-top: 1.54rem;
+  }
+  #delivery {
+    margin-bottom: 3.77rem;
+    margin-top: 1.54rem;
+  }
+  #articleSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .articleHeading {
+    width: inherit;
+    margin: 0;
+  }
+  #philosophyContainer {
+    width: 100%;
+  }
+  #appointmentContainer {
+    width: 100%;
+  }
+  #philosophyHeading {
+    text-align: center;
+  }
+  #appointmentHeading {
+    text-align: center;
+  }
+  .articleText p {
+    padding-left: 1rem;
+    font-size: 0.77rem;
+  }
+  .articleText {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  #copyright {
+    display: none;
+  }
+  #footerSite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
